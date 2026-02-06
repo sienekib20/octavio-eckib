@@ -1,4 +1,5 @@
 
+import BackToTop from "@/components/appBackToTop";
 import AppFooter from "@/components/appFooter";
 import { useUiAppLayout } from "@/store/uiAppLayout";
 import { Outlet } from "react-router";
@@ -13,6 +14,8 @@ function AppLayout() {
             <Outlet />
 
             <AppFooter />
+
+            <BackToTop />
         </div>
     )
 }
