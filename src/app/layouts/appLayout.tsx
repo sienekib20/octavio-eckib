@@ -1,4 +1,5 @@
-import { AppFooter } from "@/components/appFooter";
+
+import AppFooter from "@/components/appFooter";
 import { useUiAppLayout } from "@/store/uiAppLayout";
 import { Outlet } from "react-router";
 

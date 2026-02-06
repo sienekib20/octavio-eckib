@@ -3,6 +3,8 @@ import HeroSection from "./sections/HeroSection";
 import PartnersSection from "./sections/PartnerSection";
 import ProductSection from "./sections/ProductSection";
 import ServiceSection from "./sections/ServicesSection";
+import TestimonyFidelity from "./sections/TestemonySection";
+import TrustTerminal from "./sections/TrustTerminal";
 
 
 
@@ -14,6 +16,8 @@ const HomeView = () => {
             <ProductSection />
             <ServiceSection />
             <RecentArrivals />
+            <TestimonyFidelity />
+            <TrustTerminal />
         </>
     )
 }
